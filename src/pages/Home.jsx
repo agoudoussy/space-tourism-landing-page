@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "./home.css"
 function Home() {
   return (
-    <div>
-        <h1>EARTH</h1>
+    <div className='home_container full-page '>
+      
     </div>
   )
 }

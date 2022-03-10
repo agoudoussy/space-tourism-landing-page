@@ -1,9 +1,28 @@
-body{
-  font-family: "Bellefair,serif";
-  background-color: #0B0D17;
+*{
+  box-sizing: border-box;
 }
 
-h1{
-  font-family: "Bellefair";
-  color: white;
+body{
+  font-family: 'Bellefair', serif;
+  background-color: hsl(230, 35%, 7%);
+  max-height: 100%;
+  color: #ffff;
+  height: 100%;
+  margin: 0;
+}
+
+.full-page{
+  width: 100%;
+  max-height: 100vh;
+  background-color: #ffff;
+}
+
+ul{ 
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+span{
+  margin-right: 0.6rem;
 }

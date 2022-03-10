@@ -1,0 +1,28 @@
+.navbar{
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2.5rem;
+    padding-left: 3.4rem;
+}
+.navbar hr{
+    background-color: #979797;
+    height: 1px;
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 122px;
+    border: none;
+}
+.navbar_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 96px;
+    background-color: #9797973f;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
