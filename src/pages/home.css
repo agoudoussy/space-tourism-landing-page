@@ -1,4 +1,33 @@
 .home_container{
+    display: flex;
     height: 100%;
     background-image: url("../assets/home/background-home-desktop.jpg");
+    padding-top: 15.6rem;
+    padding-left: 10.3rem;
+    padding-right: 10.3rem;
+    margin-bottom:8.1rem;
+}
+.left-container{
+    width: 50%;
+   
+}
+.right-container{
+    display: flex;
+    align-items: stretch;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 50%;
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+   border-radius: 200px;
+   width: 200px;
+   height: 200px;
+}
+.main-button > h4{
+    color: #0B0D17;
 }

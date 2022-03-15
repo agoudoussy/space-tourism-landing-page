@@ -26,3 +26,20 @@ ul{
 span{
   margin-right: 0.6rem;
 }
+h1{
+  font-size: 9.3rem;
+  margin: 0.5rem 0;
+}
+h2{
+  font-size: 6.2rem;
+}
+h3{
+  font-size: 3.5rem;
+}
+h4{
+  font-size: 2rem;
+}
+h5{
+  font-size: 1.7rem;
+  letter-spacing: 0.29rem;
+}
