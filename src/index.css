@@ -28,7 +28,7 @@ span{
 }
 h1{
   font-size: 9.3rem;
-  margin: 0.5rem 0;
+  margin: 1.5rem 0;
 }
 h2{
   font-size: 6.2rem;
@@ -42,4 +42,13 @@ h4{
 h5{
   font-size: 1.7rem;
   letter-spacing: 0.29rem;
+  margin: 0;
+  color:#D0D6F9;
+}
+
+p{
+  margin: 0;
+  font-size:1.1rem;
+  line-height:2rem ;
+  color: #D0D6F9;
 }
