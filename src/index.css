@@ -52,3 +52,9 @@ p{
   line-height:2rem ;
   color: #D0D6F9;
 }
+
+@media screen and (max-width:968px) and (min-width:768px) {
+  li{
+    font-size: 0.8rem;
+  }
+}

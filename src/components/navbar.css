@@ -27,3 +27,16 @@
     -webkit-backdrop-filter: blur(10px);
 }
 
+
+@media screen and (max-width:968px) and (min-width:768px) {
+    .navbar{
+        margin-top: 0 !important;
+        width: 100%;
+    }
+    .navbar hr{
+        display: none;
+    }
+    .navbar_link{
+        width: 550px;
+    }
+}
